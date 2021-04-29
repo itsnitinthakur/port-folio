@@ -5,8 +5,8 @@ def home(request):
     context = {'name': 'Harry','course':'Django'}
     return render(request,'home.html', context)
 
-def about(request):
-    return render(request,'about.html')
+def certifications(request):
+    return render(request,'certifications.html')
 
 def projects(request):
     return render(request,'projects.html')

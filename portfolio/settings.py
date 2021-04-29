@@ -26,7 +26,7 @@ SECRET_KEY = 'h3z-*4^=!)!+0x1=2e9m47p&k4s+ny3ur8_c*%kjq5a&fta*66'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'portfolionitin.herokuapp.com'
+    
 ]
 
 
@@ -44,7 +44,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
+    
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -124,4 +124,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATICFILES_DIRS = [ os.path.join(BASE_DIR, 'static') ]
