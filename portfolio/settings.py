@@ -25,7 +25,9 @@ SECRET_KEY = 'h3z-*4^=!)!+0x1=2e9m47p&k4s+ny3ur8_c*%kjq5a&fta*66'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'portfolionitin.herokuapp.com'
+]
 
 
 # Application definition
