@@ -26,7 +26,7 @@ SECRET_KEY = 'h3z-*4^=!)!+0x1=2e9m47p&k4s+ny3ur8_c*%kjq5a&fta*66'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'portfolionitin.herokuapp.com','127.0.0.1'
+    'portfolionitin.herokuapp.com'
 ]
 
 
